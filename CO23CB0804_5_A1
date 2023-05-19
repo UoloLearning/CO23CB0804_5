@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+           Prime Numbers
+        </title>
+    </head>
+    <body>
+        <script>
+            for (i= 2; i<=50; i++) //outer loop
+            {
+                prime = true
+               //Prime numbers are greater than 1
+                for (j=2;j<i;j++) //inner loop
+                {
+                   if (i % j == 0){
+                       prime = false
+                       break;
+                    }
+                }
+                if(prime == true)
+                {
+                    document.write(i, "<br>")
+                }
+            }
+        </script>
+    </body>
+</html>
