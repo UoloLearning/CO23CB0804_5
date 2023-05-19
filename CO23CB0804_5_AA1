@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>
+           Nested Loop
+        </title>
+    </head>
+    <body>
+        <script>
+            for (i= 0; i<5; i++) //Outer loop
+            {
+                for (j=0;j<i;j++) //Nested loop
+                {
+                    document.write("*")
+                }
+                document.write("<br>")
+            }
+        </script>
+    </body>
+</html>
